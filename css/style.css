@@ -53,7 +53,7 @@ body {
   float: right;
   width: 150px;
   max-height: 70px;
-  border: 2px solid black;
+  border: 1px solid black;
   font-size: 140%;
   text-align: center;
   border-radius: 5px;
@@ -79,7 +79,7 @@ body {
 @media (min-width: 1200px) {
   .col-lg {
     float: left;
-    border: 2px solid black;
+    border: 1px solid black;
   }
   .col-lg {
     width: 31%;
@@ -89,7 +89,7 @@ body {
 @media (min-width: 992px) {
   .col-md {
     float: left;
-    border: 2px solid black;
+    border: 1px solid black;
   }
   .col-md {
     width: 31%;
@@ -99,7 +99,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-sm-top, .col-sm-bottom {
     float: left;
-    border: 2px solid black;
+    border: 1px solid black;
   }
   .col-sm-top {
     width: 47.3%;
@@ -112,7 +112,7 @@ body {
 @media (max-width: 767px) {
   .col-xs {
     float: left;
-    border: 2px solid black;
+    border: 1px solid black;
   }
   .col-xs {
     width: 97.5%;
