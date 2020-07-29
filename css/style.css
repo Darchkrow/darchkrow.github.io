@@ -1,0 +1,118 @@
+/** base styles for the mod2 assingment **/
+<style>
+
+* {
+  box-sizing: border-box;
+}
+#title-style {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-size: 230%;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#game-text {
+  width: 98%;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  text-align: left;
+  overflow-wrap: break-word;
+  white-space: normal;
+  overflow: auto;
+  padding: 5px;
+}
+
+.row {
+  width: 100%;
+}
+
+#gamebox {
+  text-align: right;
+  background-color: #a3a3c2;
+  margin-right: 15px;
+  margin-left: 7.5px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+	background-color: #f22f33;
+	overflow-x: hidden;
+	
+}
+
+.litbox {
+  float: right;
+  width: 130px;
+  height: 25px;
+  border: 2px solid black;
+  font-size: 120%;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: -1px;
+  margin-top: -1px;
+}
+
+.megaman {
+  background: #0052cc;
+  color: black;
+}
+
+.zelda {
+  background: #ab3fdd;
+}
+
+.metroid {
+  background: #cca300;
+  color: black;
+}
+
+@media (min-width: 1200px) {
+  .col-lg {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-lg {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-top, .col-md-bottom {
+    float: left;
+    border: 2px solid black;
+  }
+  .col-md-top {
+    width: 45%;
+  }
+  .col-md-bottom {
+    width: 92.4%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm{
+    float: left;
+    border: 2px solid black;
+  }
+  .col-sm {
+    width: 91.66%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-xs {
+    float: left;
+    border: 2px solid black;
+  }
+  .col-xs {
+    width: 91.66%;
+  }
+}
+<style/>
